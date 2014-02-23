@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="resources.rc" open="0" top="0" tabpos="1">
+		<Cursor position="71" topLine="0" />
+	</File>
+	<File name="../src/GameModes/CGameControllerArkanoid.cpp" open="1" top="0" tabpos="12">
+		<Cursor position="6257" topLine="414" />
+	</File>
+	<File name="../src/GameModes/CGameControllerArkanoid.hpp" open="1" top="0" tabpos="6">
+		<Cursor position="1773" topLine="38" />
+	</File>
+	<File name="../src/GameModes/CGameControllerConecta4.cpp" open="1" top="0" tabpos="13">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../src/GameModes/CGameControllerConecta4.hpp" open="1" top="0" tabpos="5">
+		<Cursor position="1033" topLine="0" />
+	</File>
+	<File name="../src/GameModes/CGameControllerCrapTower.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="13879" topLine="455" />
+	</File>
+	<File name="../src/GameModes/CGameControllerCrapTower.hpp" open="1" top="0" tabpos="1">
+		<Cursor position="3414" topLine="94" />
+	</File>
+	<File name="../src/GameModes/CGameControllerNormalSnake.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="5350" topLine="369" />
+	</File>
+	<File name="../src/GameModes/CGameControllerNormalSnake.hpp" open="1" top="0" tabpos="4">
+		<Cursor position="1813" topLine="39" />
+	</File>
+	<File name="../src/GameModes/CGameControllerRalla3.cpp" open="1" top="0" tabpos="14">
+		<Cursor position="5266" topLine="101" />
+	</File>
+	<File name="../src/GameModes/CGameControllerRalla3.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1360" topLine="3" />
+	</File>
+	<File name="../src/GameModes/CGameControllerSimon.cpp" open="1" top="1" tabpos="8">
+		<Cursor position="6895" topLine="263" />
+	</File>
+	<File name="../src/GameModes/CGameControllerSimon.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1044" topLine="0" />
+	</File>
+	<File name="../src/ICGameContext.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="6781" topLine="200" />
+	</File>
+	<File name="../src/ICGameContext.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="2015" topLine="44" />
+	</File>
+	<File name="../src/ICGameController.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="969" topLine="21" />
+	</File>
+	<File name="../src/ICGameController.hpp" open="1" top="0" tabpos="3">
+		<Cursor position="1022" topLine="2" />
+	</File>
+	<File name="../src/RetroJuegos.cpp" open="1" top="0" tabpos="11">
+		<Cursor position="1002" topLine="4" />
+	</File>
+	<File name="../src/external/vmath.h" open="0" top="0" tabpos="0">
+		<Cursor position="1812" topLine="43" />
+	</File>
+</CodeBlocks_layout_file>

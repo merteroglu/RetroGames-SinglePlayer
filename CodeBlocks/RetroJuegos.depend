@@ -1,0 +1,290 @@
+# depslib dependency file v1.0
+1296145860 source:g:\programacion\snakedos\codeblocks\resources.rc
+
+1296667024 source:g:\programacion\snakedos\src\gamemodes\cgamecontrollerarkanoid.cpp
+	"CGameControllerArkanoid.hpp"
+	<ICGameContext.hpp>
+	<winbgim.h>
+	<time.h>
+	<stdio.h>
+	<external/math.h>
+	<external/vmath.h>
+
+1296667024 g:\programacion\snakedos\src\gamemodes\cgamecontrollerarkanoid.hpp
+	<ICGameController.hpp>
+	<deque>
+
+1296667026 g:\programacion\snakedos\src\icgamecontroller.hpp
+	<external/math.h>
+	<external/vmath.h>
+
+1294262526 g:\programacion\snakedos\src\external\math.h
+	<stdlib.h>
+
+1296215246 g:\programacion\snakedos\src\external\vmath.h
+	<math.h>
+
+1296667026 g:\programacion\snakedos\src\icgamecontext.hpp
+	<ICGameController.hpp>
+	<windows.h>
+	<external/vmath.h>
+
+1099857324 g:\programacion\snakedos\codeblocks\winbgim\include\winbgim.h
+	<stddef.h>
+	<conio.h>
+	<windows.h>
+	<string.h>
+
+1099858512 g:\programacion\snakedos\codeblocks\winbgim\include\conio.h
+	<_mingw.h>
+
+1296667026 source:g:\programacion\snakedos\src\gamemodes\cgamecontrollerconecta4.cpp
+	"CGameControllerConecta4.hpp"
+	<ICGameContext.hpp>
+	<winbgim.h>
+	<time.h>
+
+1296667026 g:\programacion\snakedos\src\gamemodes\cgamecontrollerconecta4.hpp
+	<ICGameController.hpp>
+	<external/vmath.h>
+
+1296669664 source:g:\programacion\snakedos\src\gamemodes\cgamecontrollercraptower.cpp
+	"CGameControllerCrapTower.hpp"
+	<ICGameContext.hpp>
+	<iostream>
+	<fstream>
+	<string.h>
+	<winbgim.h>
+
+1296668592 g:\programacion\snakedos\src\gamemodes\cgamecontrollercraptower.hpp
+	<ICGameController.hpp>
+	<vector>
+
+1296667026 source:g:\programacion\snakedos\src\gamemodes\cgamecontrollernormalsnake.cpp
+	"CGameControllerNormalSnake.hpp"
+	<ICGameContext.hpp>
+	<iostream>
+	<stdio.h>
+	<winbgim.h>
+	<time.h>
+	<external/math.h>
+	<external/vmath.h>
+
+1296667026 g:\programacion\snakedos\src\gamemodes\cgamecontrollernormalsnake.hpp
+	<ICGameController.hpp>
+	<winbgim.h>
+	<deque>
+
+1296667026 source:g:\programacion\snakedos\src\gamemodes\cgamecontrollerralla3.cpp
+	"CGameControllerRalla3.hpp"
+	<ICGameContext.hpp>
+	<time.h>
+	<winbgim.h>
+
+1296667026 g:\programacion\snakedos\src\gamemodes\cgamecontrollerralla3.hpp
+	<ICGameController.hpp>
+
+1296667026 source:g:\programacion\snakedos\src\gamemodes\cgamecontrollersimon.cpp
+	"CGameControllerSimon.hpp"
+	<ICGameContext.hpp>
+	<winbgim.h>
+	<stdio.h>
+
+1296667026 g:\programacion\snakedos\src\gamemodes\cgamecontrollersimon.hpp
+	<ICGameController.hpp>
+	<external/math.h>
+	<external/vmath.h>
+	<deque>
+
+1296667026 source:g:\programacion\snakedos\src\icgamecontext.cpp
+	<iostream>
+	<conio.h>
+	<ICGameContext.hpp>
+	<GameModes/CGameControllerNormalSnake.hpp>
+	<GameModes/CGameControllerArkanoid.hpp>
+	<GameModes/CGameControllerConecta4.hpp>
+	<GameModes/CGameControllerRalla3.hpp>
+	<GameModes/CGameControllerSimon.hpp>
+	<GameModes/CGameControllerCrapTower.hpp>
+	<winbgim.h>
+
+1296667026 source:g:\programacion\snakedos\src\icgamecontroller.cpp
+	<ICGameController.hpp>
+	<ICGameContext.hpp>
+	<iostream>
+	<winbgim.h>
+
+1296667026 source:g:\programacion\snakedos\src\retrojuegos.cpp
+	<ICGameContext.hpp>
+	<winbgim.h>
+	<windows.h>
+
+1297168302 source:g:\programacion\retrojuegos\src\gamemodes\cgamecontrollerarkanoid.cpp
+	"CGameControllerArkanoid.hpp"
+	<ICGameContext.hpp>
+	<winbgim.h>
+	<time.h>
+	<stdio.h>
+	<external/math.h>
+	<external/vmath.h>
+
+1296774328 g:\programacion\retrojuegos\src\gamemodes\cgamecontrollerarkanoid.hpp
+	<ICGameController.hpp>
+	<deque>
+
+1296774328 g:\programacion\retrojuegos\src\icgamecontroller.hpp
+	<external/math.h>
+	<external/vmath.h>
+
+1294262526 g:\programacion\retrojuegos\src\external\math.h
+	<stdlib.h>
+
+1294262526 g:\programacion\retrojuegos\src\external\vmath.h
+	<math.h>
+
+1296774328 g:\programacion\retrojuegos\src\icgamecontext.hpp
+	<ICGameController.hpp>
+	<windows.h>
+	<external/vmath.h>
+
+1099857324 g:\programacion\retrojuegos\codeblocks\winbgim\include\winbgim.h
+	<stddef.h>
+	<conio.h>
+	<windows.h>
+	<string.h>
+
+1099858512 g:\programacion\retrojuegos\codeblocks\winbgim\include\conio.h
+	<_mingw.h>
+
+1296667026 source:g:\programacion\retrojuegos\src\gamemodes\cgamecontrollerconecta4.cpp
+	"CGameControllerConecta4.hpp"
+	<ICGameContext.hpp>
+	<winbgim.h>
+	<time.h>
+
+1296667026 g:\programacion\retrojuegos\src\gamemodes\cgamecontrollerconecta4.hpp
+	<ICGameController.hpp>
+	<external/vmath.h>
+
+1298033892 source:g:\programacion\retrojuegos\src\gamemodes\cgamecontrollercraptower.cpp
+	"CGameControllerCrapTower.hpp"
+	<ICGameContext.hpp>
+	<iostream>
+	<fstream>
+	<string.h>
+	<winbgim.h>
+	<dirent.h>
+
+1298034342 g:\programacion\retrojuegos\src\gamemodes\cgamecontrollercraptower.hpp
+	<ICGameController.hpp>
+	<winbgim.h>
+	<vector>
+	<deque>
+
+1297168302 source:g:\programacion\retrojuegos\src\gamemodes\cgamecontrollernormalsnake.cpp
+	"CGameControllerNormalSnake.hpp"
+	<ICGameContext.hpp>
+	<iostream>
+	<stdio.h>
+	<winbgim.h>
+	<time.h>
+	<external/math.h>
+	<external/vmath.h>
+
+1296774326 g:\programacion\retrojuegos\src\gamemodes\cgamecontrollernormalsnake.hpp
+	<ICGameController.hpp>
+	<winbgim.h>
+	<deque>
+
+1297168302 source:g:\programacion\retrojuegos\src\gamemodes\cgamecontrollerralla3.cpp
+	"CGameControllerRalla3.hpp"
+	<ICGameContext.hpp>
+	<time.h>
+	<winbgim.h>
+
+1296774326 g:\programacion\retrojuegos\src\gamemodes\cgamecontrollerralla3.hpp
+	<ICGameController.hpp>
+
+1297168302 source:g:\programacion\retrojuegos\src\gamemodes\cgamecontrollersimon.cpp
+	"CGameControllerSimon.hpp"
+	<ICGameContext.hpp>
+	<winbgim.h>
+	<stdio.h>
+
+1296774328 g:\programacion\retrojuegos\src\gamemodes\cgamecontrollersimon.hpp
+	<ICGameController.hpp>
+	<external/math.h>
+	<external/vmath.h>
+	<deque>
+
+1297168302 source:g:\programacion\retrojuegos\src\icgamecontext.cpp
+	<iostream>
+	<conio.h>
+	<ICGameContext.hpp>
+	<GameModes/CGameControllerNormalSnake.hpp>
+	<GameModes/CGameControllerArkanoid.hpp>
+	<GameModes/CGameControllerConecta4.hpp>
+	<GameModes/CGameControllerRalla3.hpp>
+	<GameModes/CGameControllerSimon.hpp>
+	<GameModes/CGameControllerCrapTower.hpp>
+	<winbgim.h>
+
+1296774328 source:g:\programacion\retrojuegos\src\icgamecontroller.cpp
+	<ICGameController.hpp>
+	<ICGameContext.hpp>
+	<iostream>
+	<winbgim.h>
+
+1296768100 source:g:\programacion\retrojuegos\codeblocks\resources.rc
+
+1297018794 source:g:\programacion\retrojuegos\src\retrojuegos.cpp
+	<ICGameContext.hpp>
+	<winbgim.h>
+
+1297171902 source:c:\programacion\c++\retrogames-singleplayer\src\gamemodes\cgamecontrollerarkanoid.cpp
+	"CGameControllerArkanoid.hpp"
+	<ICGameContext.hpp>
+	<winbgim.h>
+	<time.h>
+	<stdio.h>
+	<external/math.h>
+	<external/vmath.h>
+
+1296777928 c:\programacion\c++\retrogames-singleplayer\src\gamemodes\cgamecontrollerarkanoid.hpp
+	<ICGameController.hpp>
+	<deque>
+
+1296777928 c:\programacion\c++\retrogames-singleplayer\src\icgamecontroller.hpp
+	<external/math.h>
+	<external/vmath.h>
+
+1294266126 c:\programacion\c++\retrogames-singleplayer\src\external\math.h
+	<stdlib.h>
+
+1294266126 c:\programacion\c++\retrogames-singleplayer\src\external\vmath.h
+	<math.h>
+
+1296777928 c:\programacion\c++\retrogames-singleplayer\src\icgamecontext.hpp
+	<ICGameController.hpp>
+	<windows.h>
+	<external/vmath.h>
+
+1099860924 c:\programacion\c++\retrogames-singleplayer\codeblocks\winbgim\include\winbgim.h
+	<stddef.h>
+	<conio.h>
+	<windows.h>
+	<string.h>
+
+1099862112 c:\programacion\c++\retrogames-singleplayer\codeblocks\winbgim\include\conio.h
+	<_mingw.h>
+
+1296670626 source:c:\programacion\c++\retrogames-singleplayer\src\gamemodes\cgamecontrollerconecta4.cpp
+	"CGameControllerConecta4.hpp"
+	<ICGameContext.hpp>
+	<winbgim.h>
+	<time.h>
+
+1296670626 c:\programacion\c++\retrogames-singleplayer\src\gamemodes\cgamecontrollerconecta4.hpp
+	<ICGameController.hpp>
+	<external/vmath.h>
+

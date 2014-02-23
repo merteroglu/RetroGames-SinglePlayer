@@ -1,0 +1,57 @@
+# Project: RetroJuegos
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = ../objs/RetroJuegos_private.res
+OBJ  = ../objs/RetroJuegos.o ../objs/ICGameContext.o ../objs/ICGameController.o ../objs/CGameControllerArkanoid.o ../objs/CGameControllerConecta4.o ../objs/CGameControllerCrapTower.o ../objs/CGameControllerNormalSnake.o ../objs/CGameControllerRalla3.o ../objs/CGameControllerSimon.o $(RES)
+LINKOBJ  = ../objs/RetroJuegos.o ../objs/ICGameContext.o ../objs/ICGameController.o ../objs/CGameControllerArkanoid.o ../objs/CGameControllerConecta4.o ../objs/CGameControllerCrapTower.o ../objs/CGameControllerNormalSnake.o ../objs/CGameControllerRalla3.o ../objs/CGameControllerSimon.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -mwindows -lbgi -lgdi32 -luser32  
+INCS =  -I"C:/Dev-Cpp/include"  -I"K:/Programacion/RetroJuegos/src" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include"  -I"K:/Programacion/RetroJuegos/src" 
+BIN  = ../bin/RetroJuegos.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before ../bin/RetroJuegos.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "..\bin\RetroJuegos.exe" $(LIBS)
+
+../objs/RetroJuegos.o: ../src/RetroJuegos.cpp
+	$(CPP) -c ../src/RetroJuegos.cpp -o ../objs/RetroJuegos.o $(CXXFLAGS)
+
+../objs/ICGameContext.o: ../src/ICGameContext.cpp
+	$(CPP) -c ../src/ICGameContext.cpp -o ../objs/ICGameContext.o $(CXXFLAGS)
+
+../objs/ICGameController.o: ../src/ICGameController.cpp
+	$(CPP) -c ../src/ICGameController.cpp -o ../objs/ICGameController.o $(CXXFLAGS)
+
+../objs/CGameControllerArkanoid.o: ../src/GameModes/CGameControllerArkanoid.cpp
+	$(CPP) -c ../src/GameModes/CGameControllerArkanoid.cpp -o ../objs/CGameControllerArkanoid.o $(CXXFLAGS)
+
+../objs/CGameControllerConecta4.o: ../src/GameModes/CGameControllerConecta4.cpp
+	$(CPP) -c ../src/GameModes/CGameControllerConecta4.cpp -o ../objs/CGameControllerConecta4.o $(CXXFLAGS)
+
+../objs/CGameControllerCrapTower.o: ../src/GameModes/CGameControllerCrapTower.cpp
+	$(CPP) -c ../src/GameModes/CGameControllerCrapTower.cpp -o ../objs/CGameControllerCrapTower.o $(CXXFLAGS)
+
+../objs/CGameControllerNormalSnake.o: ../src/GameModes/CGameControllerNormalSnake.cpp
+	$(CPP) -c ../src/GameModes/CGameControllerNormalSnake.cpp -o ../objs/CGameControllerNormalSnake.o $(CXXFLAGS)
+
+../objs/CGameControllerRalla3.o: ../src/GameModes/CGameControllerRalla3.cpp
+	$(CPP) -c ../src/GameModes/CGameControllerRalla3.cpp -o ../objs/CGameControllerRalla3.o $(CXXFLAGS)
+
+../objs/CGameControllerSimon.o: ../src/GameModes/CGameControllerSimon.cpp
+	$(CPP) -c ../src/GameModes/CGameControllerSimon.cpp -o ../objs/CGameControllerSimon.o $(CXXFLAGS)
+
+../objs/RetroJuegos_private.res: RetroJuegos_private.rc 
+	$(WINDRES) -i RetroJuegos_private.rc --input-format=rc -o ../objs/RetroJuegos_private.res -O coff 
