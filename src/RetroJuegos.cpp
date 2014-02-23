@@ -15,7 +15,7 @@ You should have received a copy of the GNU General Public License
 along with RetroJuegos.  If not, see <http://www.gnu.org/licenses/>.
 */
 #define _WIN32_WINNT 0x0500
-#include <ICGameContext.hpp>
+#include <CGameContext.hpp>
 #include <winbgim.h>
 
 int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)

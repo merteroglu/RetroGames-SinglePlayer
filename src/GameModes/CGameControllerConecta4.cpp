@@ -15,7 +15,7 @@ You should have received a copy of the GNU General Public License
 along with RetroJuegos.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "CGameControllerConecta4.hpp"
-#include <ICGameContext.hpp>
+#include <CGameContext.hpp>
 #include <winbgim.h>
 #include <time.h>
 
@@ -48,7 +48,7 @@ CGameControllerConecta4::~CGameControllerConecta4()
 
 void CGameControllerConecta4::EndRound()
 {
-    ICGameController::EndRound();
+    CGameController::EndRound();
 }
 void CGameControllerConecta4::DrawHUD()
 {
@@ -96,7 +96,7 @@ void CGameControllerConecta4::Tick()
             case 13:
                 if (g_Game.m_WorldPaused && m_PlayerWin != PLAYER_NULL)
                 {
-                    g_Game.m_GameState = ICGameContext::GAME_MENU;
+                    g_Game.m_GameState = CGameContext::GAME_MENU;
                     return;
                 }
                 break;

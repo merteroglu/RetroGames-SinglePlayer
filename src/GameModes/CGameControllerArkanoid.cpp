@@ -15,7 +15,7 @@ You should have received a copy of the GNU General Public License
 along with RetroJuegos.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "CGameControllerArkanoid.hpp"
-#include <ICGameContext.hpp>
+#include <CGameContext.hpp>
 #include <winbgim.h>
 #include <time.h>
 #include <stdio.h>
@@ -78,7 +78,7 @@ void CGameControllerArkanoid::StartRound()
 }
 void CGameControllerArkanoid::EndRound()
 {
-    ICGameController::EndRound();
+    CGameController::EndRound();
 
     m_isLost = true;
     setcolor(BLACK);
@@ -250,7 +250,7 @@ void CGameControllerArkanoid::Tick()
             case 13:
                 if (m_Lifes <= 0 && m_isLost)
                 {
-                    g_Game.m_GameState = ICGameContext::GAME_MENU;
+                    g_Game.m_GameState = CGameContext::GAME_MENU;
                     return;
                 }
                 break;

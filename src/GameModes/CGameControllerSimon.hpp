@@ -16,12 +16,12 @@ along with RetroJuegos.  If not, see <http://www.gnu.org/licenses/>.
 */
 #ifndef CGAMECONTROLLERSIMON_HH
 #define CGAMECONTROLLERSIMON_HH
-#include <ICGameController.hpp>
+#include <CGameController.hpp>
 #include <external/math.h>
 #include <external/vmath.h>
 #include <deque>
 
-class CGameControllerSimon : public ICGameController
+class CGameControllerSimon : public CGameController
 {
 public:
     CGameControllerSimon();

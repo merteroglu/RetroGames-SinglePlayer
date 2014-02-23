@@ -16,10 +16,10 @@ along with RetroJuegos.  If not, see <http://www.gnu.org/licenses/>.
 */
 #ifndef CGAMECONTROLLERRALLA3_HH
 #define CGAMECONTROLLERRALLA3_HH
-#include <ICGameController.hpp>
+#include <CGameController.hpp>
 
 
-class CGameControllerRalla3 : public ICGameController
+class CGameControllerRalla3 : public CGameController
 {
 public:
     CGameControllerRalla3();

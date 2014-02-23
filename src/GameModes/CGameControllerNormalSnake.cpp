@@ -15,7 +15,7 @@ You should have received a copy of the GNU General Public License
 along with RetroJuegos.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "CGameControllerNormalSnake.hpp"
-#include <ICGameContext.hpp>
+#include <CGameContext.hpp>
 #include <iostream>
 #include <stdio.h>
 #include <winbgim.h>
@@ -219,7 +219,7 @@ void CGameControllerNormalSnake::Tick()
             case 13:
                 if (m_SnakeState == STATE_DEAD)
                 {
-                    g_Game.m_GameState = ICGameContext::GAME_MENU;
+                    g_Game.m_GameState = CGameContext::GAME_MENU;
                     return;
                 }
                 break;
@@ -402,7 +402,7 @@ void CGameControllerNormalSnake::DrawEntities()
 
 void CGameControllerNormalSnake::EndRound()
 {
-    ICGameController::EndRound();
+    CGameController::EndRound();
 
     setcolor(BLACK);
     setbkcolor(WHITE);

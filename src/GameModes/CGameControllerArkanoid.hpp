@@ -14,7 +14,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with RetroJuegos.  If not, see <http://www.gnu.org/licenses/>.
 */
-#include <ICGameController.hpp>
+#include <CGameController.hpp>
 #include <deque>
 
 typedef enum
@@ -64,7 +64,7 @@ public:
 };
 
 
-class CGameControllerArkanoid : public ICGameController
+class CGameControllerArkanoid : public CGameController
 {
 public:
     CGameControllerArkanoid();

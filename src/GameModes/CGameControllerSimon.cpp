@@ -15,7 +15,7 @@ You should have received a copy of the GNU General Public License
 along with RetroJuegos.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "CGameControllerSimon.hpp"
-#include <ICGameContext.hpp>
+#include <CGameContext.hpp>
 #include <winbgim.h>
 #include <stdio.h>
 
@@ -138,7 +138,7 @@ short CGameControllerSimon::GetPadColor(short pad, bool lightcolor)
 
 void CGameControllerSimon::EndRound()
 {
-    ICGameController::EndRound();
+    CGameController::EndRound();
 }
 
 void CGameControllerSimon::DrawHUD()
@@ -151,7 +151,7 @@ void CGameControllerSimon::DrawHUD()
             case 13:
                 if (g_Game.m_WorldPaused)
                 {
-                    g_Game.m_GameState = ICGameContext::GAME_MENU;
+                    g_Game.m_GameState = CGameContext::GAME_MENU;
                     return;
                 }
 

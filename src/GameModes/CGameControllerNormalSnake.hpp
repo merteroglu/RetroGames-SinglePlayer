@@ -24,11 +24,11 @@ You should have received a copy of the GNU General Public License
 along with RetroJuegos.  If not, see <http://www.gnu.org/licenses/>.
 */
 #define CGAMECONTROLLERNORMALSNAKE_H
-#include <ICGameController.hpp>
+#include <CGameController.hpp>
 #include <winbgim.h>
 #include <deque>
 
-class CGameControllerNormalSnake : public ICGameController
+class CGameControllerNormalSnake : public CGameController
 {
 public:
     CGameControllerNormalSnake();

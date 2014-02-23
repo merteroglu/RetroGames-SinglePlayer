@@ -16,7 +16,7 @@ along with RetroJuegos.  If not, see <http://www.gnu.org/licenses/>.
 */
 #ifndef CRAPTOWER_HH
 #define CRAPTOWER_HH
-#include <ICGameController.hpp>
+#include <CGameController.hpp>
 #include <winbgim.h>
 #include <vector>
 #include <deque>
@@ -173,7 +173,7 @@ public:
 
 //----------------
 
-class CGameControllerCrapTower : public ICGameController
+class CGameControllerCrapTower : public CGameController
 {
 public:
     CGameControllerCrapTower();

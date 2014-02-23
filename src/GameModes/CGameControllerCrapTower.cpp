@@ -15,7 +15,7 @@ You should have received a copy of the GNU General Public License
 along with RetroJuegos.  If not, see <http://www.gnu.org/licenses/>.
 */
 #include "CGameControllerCrapTower.hpp"
-#include <ICGameContext.hpp>
+#include <CGameContext.hpp>
 #include <iostream>
 #include <fstream>
 #include <string.h>

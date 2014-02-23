@@ -16,10 +16,10 @@ along with RetroJuegos.  If not, see <http://www.gnu.org/licenses/>.
 */
 #ifndef CGAMECONTROLLERCONECTA4_HH
 #define CGAMECONTROLLERCONECTA4_HH
-#include <ICGameController.hpp>
+#include <CGameController.hpp>
 #include <external/vmath.h>
 
-class CGameControllerConecta4 : public ICGameController
+class CGameControllerConecta4 : public CGameController
 {
 public:
     CGameControllerConecta4();
