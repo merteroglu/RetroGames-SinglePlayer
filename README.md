@@ -1,7 +1,7 @@
 RetroGames-SinglePlayer
 =======================
 
-Usado para aprender fundamentos... igual le sirve alguien para chapucear.
+Realizado para aprender fundamentos hace unos años... igual le sirve a alguien para chapucear.
 
 Juegos Hechos:
 - Snake
